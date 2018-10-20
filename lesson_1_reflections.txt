@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The amount of time needed to spot a bug was much smaller because I didn't have to go through all the lines.
+    Instead I only had to check the lines that started with - and +.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I think it can drastically lower a chance to lose important data. This can have a huge impact on programmers. While working on huge programs with thousands of lines of code it's very easy to mess something up. With version control all they have to do to spot a bug they've created is to check previous versions of code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    One of the pros of this approach is the ability to logically break a project into smaller pieces. On the other hand you have to remember about commiting the changes and doing it at the right moment.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs doesn't need this feature that much because you often edit one document at a time and it isn't directly related to another one. While coding we often create multiple files that all create one project and changing one file can have an impact on how the whole application works.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows the history of commits so I can use it to find one I'm looking for and then compare it with the previous commit using a git diff command.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can always go back to a previous version if something goes wrong using git checkout command and see when I introduced a bug and then I can fix it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
