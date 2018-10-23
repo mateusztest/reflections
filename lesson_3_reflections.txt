@@ -19,3 +19,7 @@ How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     I would probably have to use a shared folder or something. Although it would be less convenient since we would have to tell each other what we're going to do if we don't want to mess up anything.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    I want to make changes in a separate branch if I'm doing something experimental. ALso when pushing to remote repository on GitHub you don't want to push to master so that the pull request can be approved there merging the branches. It makes sense because when collaborating with others you have to keep things organized.
